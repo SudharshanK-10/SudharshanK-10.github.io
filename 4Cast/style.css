@@ -1,0 +1,132 @@
+*,*::before,*::after{
+     box-sizing: border-box;
+     font-family: 'Otomanopee One';
+}
+body{
+     background: linear-gradient(to right, #ebbab0, #ffecbf);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     min-height: 100vh;
+     margin: 0;
+     padding: 0;
+}
+
+.container{
+     max-width: 90%;
+     /*width: 900px;*/
+     background-color: white;
+     box-shadow: 0 5px 10px black;
+     border-radius: 5px;
+}
+
+.content{
+     padding: 20px;
+     margin-top : 50px;
+}
+
+.header{
+     background-color: #222;
+     height: 120px;
+     display: flex;
+     justify-content: center;
+     align-items: flex-end;
+     border-top-left-radius: 5px;
+     border-top-right-radius: 5px;
+}
+
+.icon-container{
+     position: relative;
+     top: 70px;
+     padding: 20px;
+     background-color: white;
+     width: 140px;
+     height: 140px;
+     border-radius: 50%;
+}
+
+.general-information{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+
+.status{
+     font-size: 25px;
+     font-weight: bold;
+}
+
+.location{
+     font-size: 20px;
+     font-weight: normal;
+     margin-top: 10px;
+}
+
+.detail-section{
+     display: flex;
+     justify-content: space-between;
+     margin-top: 20px;
+}
+
+.detail{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     flex-basis: 0;
+     flex-grow: 1;
+     padding: 20px;
+}
+
+.detail.bordered{
+     border-left : 1px solid #666;
+     border-right : 1px solid #666;
+}
+.detail .title{
+     font-size: 20px;
+     flex-grow: 1;
+     font-weight: bold;
+     color: #777;
+}
+
+.detail .value{
+     font-size: 18px;
+     margin-top: 20px;
+}
+
+.search-city{
+     display: flex;
+     justify-content: center;
+}
+
+.search{
+     margin-top: 30px;
+     font-size: 20px;
+     outline: none;
+     border: 1px solid #666;
+     border-radius: 5px;
+     padding: 15px 15px;
+     width: 100%;
+}
+
+.Logo{
+     position: absolute;
+     bottom: 20px;
+     right: 20px;
+     color: #333;
+     font-size: 10px;
+}
+
+.button {
+     width : 80px;
+     /*height : 90px;*/
+     border : none;
+     border-radius : 2px;
+     margin-top: 45px;
+     margin-left : 10px;
+     margin-bottom: 10px;
+}
+
+.button:hover{
+     background-color: #000;
+     color: white
+}
