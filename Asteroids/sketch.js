@@ -14,6 +14,7 @@ function setup(){
      b2 = color(0);
      ship = new Ship();
 
+
      //score display
      score_disp = createDiv('SCORE = 0');
      score_disp.position(windowWidth-400, 30);
@@ -25,6 +26,8 @@ function setup(){
      for(var i=0;i<10;i++){
           asteroids.push(new Asteroid());
      }
+
+     alert("Arrow keys - to move and spacebar - to fire");
 }
 
 function draw(){
